@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jewelry Shine — украшения · bijuterii</title>
+<meta name="description" content="Цепочки, браслеты, кольца, серьги и колье. Заказ в Telegram, отвечаем быстро. · Lănțișoare, brățări, inele, cercei și coliere. Comandă pe Telegram.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Jewelry Shine">
+<meta property="og:title" content="Jewelry Shine — украшения · bijuterii">
+<meta property="og:description" content="Цепочки, браслеты, кольца, серьги и колье. Заказ в Telegram, отвечаем быстро. · Lănțișoare, brățări, inele, cercei și coliere. Comandă pe Telegram.">
+<!-- ВАЖНО: замените YOUR-DOMAIN на адрес вашего сайта (2 места ниже), иначе Telegram не покажет картинку. Файл og.jpg лежит рядом с index.html -->
+<meta property="og:image" content="https://YOUR-DOMAIN/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://YOUR-DOMAIN/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237a1f2b'/%3E%3Cpath d='M20 20h24l8 10-20 24-20-24z' fill='%23fff'/%3E%3C/svg%3E">
+<script>try{var th=localStorage.getItem("theme");if(th==="dark"||th==="light")document.documentElement.setAttribute("data-theme",th);}catch(e){}</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;600&display=swap">
+<style>
+:root{--bg:#f4f4f2;--card:#fff;--ink:#16181c;--mute:#5d6470;--line:#d9dbdf;--acc:#7a1f2b;--accink:#fff;--ph:#e6e8ec;--ok:#2f8f5b;--ph2:#c9ced6;--glow1:rgba(122,31,43,.09);--glow2:rgba(196,160,110,.12);--dot:rgba(22,24,28,.07);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121316;--card:#1a1c21;--ink:#eceef1;--mute:#9aa1ad;--line:#2b2e35;--acc:#d9a3ac;--accink:#1a0f12;--ph:#23262c;--ok:#6fcf97;--ph2:#3a3e47;--glow1:rgba(217,163,172,.08);--glow2:rgba(196,160,110,.06);--dot:rgba(255,255,255,.05);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121316;--card:#1a1c21;--ink:#eceef1;--mute:#9aa1ad;--line:#2b2e35;--acc:#d9a3ac;--accink:#1a0f12;--ph:#23262c;--ok:#6fcf97;--ph2:#3a3e47;--glow1:rgba(217,163,172,.08);--glow2:rgba(196,160,110,.06);--dot:rgba(255,255,255,.05);color-scheme:dark}
+*{box-sizing:border-box}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font:400 16px/1.55 Manrope,system-ui,sans-serif;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font:600 24px Cormorant Garamond,Georgia,serif;letter-spacing:.02em}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--mute);padding:7px 14px;font:600 14px Manrope,sans-serif;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.hero{padding:40px 0 28px;max-width:640px}
+h1{font:600 clamp(36px,7vw,60px)/1.05 Cormorant Garamond,Georgia,serif;margin:0 0 14px}
+.hero p{color:var(--mute);margin:0 0 22px;font-size:17px}
+.btn{display:inline-block;background:var(--acc);color:var(--accink);text-decoration:none;font-weight:600;padding:12px 22px;border-radius:8px;border:0;cursor:pointer;font-size:15px}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--line);padding:9px 14px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(210px,100%),1fr));gap:16px;padding:12px 0 40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.pic{position:relative;aspect-ratio:1/1;margin:10px 10px 0;border:1px solid var(--line);border-radius:8px;background:var(--ph);display:flex;align-items:center;justify-content:center;text-align:center;color:var(--mute);font-size:13px;overflow:hidden;min-width:0}
+@supports not (aspect-ratio:1/1){.pic{height:0;padding-top:100%}}
+.pic img{position:absolute;top:8px;left:8px;width:calc(100% - 16px);height:calc(100% - 16px);max-width:none;object-fit:contain;object-position:center;border-radius:4px}
+html,body{overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(60vmax 45vmax at 100% 0%,var(--glow1),transparent 70%),radial-gradient(55vmax 45vmax at 0% 100%,var(--glow2),transparent 70%),radial-gradient(circle at 1px 1px,var(--dot) 1px,transparent 1.4px) 0 0/22px 22px;-webkit-mask:linear-gradient(#000,rgba(0,0,0,.85));mask:linear-gradient(#000,rgba(0,0,0,.85))}
+header{border-bottom:1px solid var(--line)}
+.hero h1::after{content:"";display:block;width:48px;height:1px;background:var(--acc);margin-top:18px;opacity:.7}
+.card{transition:transform .25s ease,box-shadow .25s ease}
+@media (hover:hover){.card:hover{transform:translateY(-3px);box-shadow:0 10px 28px -14px rgba(20,10,15,.35)}}
+.info{padding:14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.name{font:600 20px/1.2 Cormorant Garamond,Georgia,serif}
+.desc{color:var(--mute);font-size:14px;flex:1}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:6px}
+.price{font-weight:600}
+h2{font:600 30px Cormorant Garamond,Georgia,serif;margin:0 0 6px}
+.contact{border-top:1px solid var(--line);padding:32px 0 48px}
+.contact p{color:var(--mute);margin:0 0 16px;max-width:560px}
+.btn:focus-visible,.lang button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.pic.has{cursor:zoom-in;-webkit-tap-highlight-color:transparent;text-decoration:none;color:inherit}
+.pic.has:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.lb{position:fixed;inset:0;z-index:50;background:rgba(8,9,11,.94);display:none;touch-action:none;user-select:none;-webkit-user-select:none;overscroll-behavior:contain}
+.lb.open{display:block}
+.lb-stage{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.lb-stage img{max-width:100vw;max-height:100vh;max-height:100dvh;object-fit:contain;transform-origin:center center;will-change:transform;-webkit-user-drag:none;pointer-events:none}
+.lb-stage img.anim{transition:transform .22s ease}
+.lb-btn{position:absolute;z-index:2;width:46px;height:46px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;font:400 26px/46px system-ui,sans-serif;text-align:center;cursor:pointer;padding:0}
+.lb-btn:hover{background:rgba(255,255,255,.26)}
+.lb-btn:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.lb-close{top:calc(12px + env(safe-area-inset-top,0px));right:12px}
+.lb-prev{left:12px;top:50%;margin-top:-23px}
+.lb-next{right:12px;top:50%;margin-top:-23px}
+.lb-bar{position:absolute;z-index:2;left:0;right:0;bottom:0;padding:14px 16px calc(14px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;justify-content:space-between;gap:12px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.6))}
+.lb-cap{font:600 18px/1.2 Cormorant Garamond,Georgia,serif}
+.lb-cap small{display:block;font:400 13px Manrope,sans-serif;opacity:.75;margin-top:2px}
+.lb-hint{position:absolute;z-index:2;top:calc(24px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);color:rgba(255,255,255,.7);font-size:13px;white-space:nowrap;pointer-events:none;transition:opacity .4s}
+.lb .btn{background:#d9a3ac;color:#1a0f12;white-space:nowrap}
+@media (hover:none){.lb-prev,.lb-next{display:none}}
+@media (max-width:520px){.wrap{padding:0 14px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.pic{margin:8px 8px 0}.info{padding:10px}.name{font-size:17px}.desc{font-size:13px}.row{flex-wrap:wrap}.row .btn{width:100%;text-align:center}}
+[hidden]{display:none!important}
+.hr{display:flex;align-items:center;gap:10px}
+.th{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:none;color:var(--ink);display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0;flex:none}
+.th:focus-visible,.chip:focus-visible,.sort:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.tools{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:6px 0 0}
+.chips{display:flex;gap:8px;overflow-x:auto;flex:1 1 100%;min-width:0;padding:2px 0 6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:7px 14px;font:600 14px Manrope,system-ui,sans-serif;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cnt{color:var(--mute);font-size:14px}
+.sort{max-width:100%;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:600 14px Manrope,system-ui,sans-serif}
+.badge{position:absolute;z-index:1;top:8px;left:8px;background:var(--acc);color:var(--accink);font:600 12px/1 Manrope,system-ui,sans-serif;padding:5px 9px;border-radius:999px}
+.badge.out{background:var(--ink);color:var(--bg)}
+.card.out .pic img{opacity:.45;filter:grayscale(.7)}
+.stock{font-size:13px;color:var(--mute);display:flex;align-items:center;gap:6px}
+.stock::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--ok);flex:none}
+.card.out .stock::before{background:var(--mute)}
+.mat{font-size:13px;color:var(--mute)}
+.row{flex-wrap:wrap}
+.infos{border-top:1px solid var(--line);padding:32px 0 8px}
+.i3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:14px;margin-top:14px}
+.i3>div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;min-width:0}
+.i3 h3{font:600 20px/1.2 Cormorant Garamond,Georgia,serif;margin:0 0 6px}
+.i3 p{margin:0;color:var(--mute);font-size:14px}
+.cbtns{display:flex;flex-wrap:wrap;gap:10px}
+.cbtns .btn.ghost{padding:12px 22px;font-size:15px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="logo" id="shopName"></div>
+<div class="hr"><button class="th" id="themeBtn" type="button"></button><div class="lang" role="group" aria-label="Language"><button data-l="ru">RU</button><button data-l="ro">RO</button></div></div></header>
+<section class="hero"><h1 id="t1"></h1><p id="t2"></p><a class="btn" id="cta1" target="_blank" rel="noopener"></a></section>
+<section><div class="tools"><div class="chips" id="chips"></div><span class="cnt" id="cnt"></span><select class="sort" id="sort"></select></div><div class="grid" id="grid"></div></section>
+<section class="infos"><h2 id="t5"></h2><div class="i3" id="i3"></div></section>
+<section class="contact"><h2 id="t3"></h2><p id="t4"></p><div class="cbtns"><a class="btn" id="cta2" target="_blank" rel="noopener"></a><a class="btn ghost" id="vb" hidden></a><a class="btn ghost" id="ig" target="_blank" rel="noopener" hidden></a></div></section>
+</div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo" hidden>
+<div class="lb-stage" id="lbStage"><img id="lbImg" alt=""></div>
+<div class="lb-hint" id="lbHint"></div>
+<button class="lb-btn lb-close" id="lbClose" aria-label="Close">&times;</button>
+<button class="lb-btn lb-prev" id="lbPrev" aria-label="Previous">&#8249;</button>
+<button class="lb-btn lb-next" id="lbNext" aria-label="Next">&#8250;</button>
+<div class="lb-bar"><div class="lb-cap" id="lbCap"></div><a class="btn" id="lbOrder" target="_blank" rel="noopener"></a></div>
+</div>
+<script>
+/* ============ ЭТО МОЖНО МЕНЯТЬ / ACEST BLOC SE POATE EDITA ============ */
+var TELEGRAM = "lMaksonI";            // ваш Telegram без @
+var SHOP_NAME = "𝗝𝗲𝘄𝗲𝗹𝗿𝘆 𝗦𝗵𝗶𝗻𝗲";       // название магазина — впишите своё
+var PRICE_SUFFIX = {ru:"лей", ro:"lei"}; // валюта: поменяйте, если цены не в леях
+/* Для каждого товара: название и описание на двух языках, цена, фото (ссылка или пусто) */
+var VIBER = "";       // номер Viber с кодом страны, например "+37360000000" (пусто = кнопки не будет)
+var INSTAGRAM = "";   // ник Instagram без @ (пусто = кнопки не будет)
+var CATS = [{k:"chain",ru:"Цепочки",ro:"Lănțișoare"},{k:"bracelet",ru:"Браслеты",ro:"Brățări"},{k:"ring",ru:"Кольца",ro:"Inele"},{k:"earring",ru:"Серьги",ro:"Cercei"},{k:"necklace",ru:"Колье",ro:"Coliere"}];
+/* ⚠ Замените тексты на ваши реальные условия доставки, оплаты и ухода */
+var DELIVERY = {
+ ru:{title:"Доставка, оплата и уход",items:[
+  {h:"Доставка",t:"Доставку или личную встречу согласуем в Telegram. Стоимость и сроки зависят от города, мы называем их при оформлении заказа."},
+  {h:"Оплата",t:"Способ оплаты обсуждаем при заказе."},
+  {h:"Уход за украшениями",t:"Снимайте украшения перед душем, бассейном и сном, не наносите на них духи. Храните в мешочке или коробке, протирайте мягкой сухой тканью."}]},
+ ro:{title:"Livrare, plată și îngrijire",items:[
+  {h:"Livrare",t:"Livrarea sau întâlnirea o stabilim pe Telegram. Costul și termenul depind de oraș și le comunicăm la comandă."},
+  {h:"Plată",t:"Modalitatea de plată o discutăm la comandă."},
+  {h:"Îngrijire",t:"Scoate bijuteriile înainte de duș, piscină și somn și nu aplica parfum pe ele. Păstrează-le în săculeț sau cutie și șterge-le cu o cârpă moale și uscată."}]}
+};
+/* Для каждого товара: cat — категория; st — статус: "new" (Новинка) или "out" (нет в наличии), без st = в наличии;
+   mru / mro — материал (необязательно, например mru:"Сталь", mro:"Oțel"); название, описание и цена как раньше */
+var PRODUCTS = [
+ {ru:"Цепочка Chrome Hearts", ro:"Lanț Chrome Hearts", dru:"Готический стиль, серебристый", dro:"Stil gotic, metal argintiu", price:400, img:"tsepochkach.jpg", cat:"chain"},
+ {ru:"Браслет Chrome Hearts", ro:"Brățară Chrome Hearts", dru:"Звенья с крестами, серебристый цвет", dro:"Zale cu cruci, culoare argintie", price:400, img:"bracletch.jpg", cat:"bracelet"},
+ {ru:"Кольцо Chrome Hearts", ro:"Inel Chrome Hearts", dru:"Тонкий ободок, готический узор", dro:"Bandă subțire, model gotic", price:300, img:"kolto.jpg", cat:"ring"},
+ {ru:"Серьги-гвоздики Vivienne Westwood", ro:"Cercei Vivienne Westwood", dru:"С кристаллами, серебристый цвет", dro:"Cu cristale, culoare argintie", price:350, img:"sergi.jpg", cat:"earring"},
+ {ru:"Цепочка с подвеской Vivienne Westwood", ro:"Lănțișor cu pandantiv Vivienne Westwood", dru:"Тонкая цепочка, подвеска с кристаллами", dro:"Lănțișor subțire, pandantiv cu cristale", price:500, img:"tsepka.jpg", cat:"chain"},
+ {ru:"Браслет Pandora", ro:"Brățară Pandora", dru:"Нежный браслет для подарка", dro:"Brățară delicată pentru cadou", price:500, img:"bracletic.jpg", cat:"bracelet"},
+ {ru:"Колье с розовым сердцем Pandora", ro:"Colier cu inimă roz Pandora", dru:"Розовое сердце с кристаллами", dro:"Inimă roz cu cristale", price:550, img:"rozovoe.jpg", cat:"necklace"},
+ {ru:"Колье с белым сердцем Pandora, серебристое", ro:"Colier cu inimă albă Pandora, argintiu", dru:"Белое сердце с кристаллами, серебристая цепочка", dro:"Inimă albă cu cristale, lănțișor argintiu", price:550, img:"beloe.jpg", cat:"necklace"},
+ {ru:"Колье с красным сердцем Pandora", ro:"Colier cu inimă roșie Pandora", dru:"Красное сердце на тонкой цепочке", dro:"Inimă roșie pe lănțișor subțire", price:550, img:"krasnoe.jpg", cat:"necklace"},
+ {ru:"Колье с белым сердцем Pandora, золотистое", ro:"Colier cu inimă albă Pandora, auriu", dru:"Белое сердце с кристаллами, золотистая цепочка", dro:"Inimă albă cu cristale, lănțișor auriu", price:550, img:"zolotoe.jpg", cat:"necklace"},
+ {ru:"Колье с двумя сердцами Pandora", ro:"Colier cu două inimi Pandora", dru:"Белое и розовое сердца с кристаллами", dro:"Inimă albă și inimă roz cu cristale", price:550, img:"dvoinoe.jpg", cat:"necklace"},
+ {ru:"Мужской стальной браслет Lacoste", ro:"Brățară din oțel pentru bărbați Lacoste", dru:"Матовая сталь, широкое звено", dro:"Oțel mat, zale late", price:500, img:"lacosta.jpg", cat:"bracelet"}
+];
+/* ====================================================================== */
+var T={
+ ru:{h1:"Украшения, которые хочется носить",p:"Цепочки, браслеты, кольца и серьги. Заказ в Telegram, отвечаем быстро.",cta:"Написать в Telegram",order:"Заказать",ph:"Здесь будет фото",zoom:"Нажмите, чтобы открыть фото",hint:"Двойной тап или щипок — приблизить",c:"Как заказать",cp:"Напишите нам в Telegram: выберите украшение, мы уточним детали и договоримся о доставке или встрече.",msg:"Здравствуйте! Хочу заказать: ",all:"Все",sd:"По умолчанию",sa:"Сначала дешевле",sh:"Сначала дороже",n:"Товаров: ",in:"В наличии",out:"Нет в наличии",nw:"Новинка",ask:"Спросить",mo:"Здравствуйте! Хочу узнать, когда будет в наличии: ",mat:"Материал: ",tl:"Светлая тема",td:"Тёмная тема",sl:"Сортировка"},
+ ro:{h1:"Bijuterii pe care vrei să le porți",p:"Lănțișoare, brățări, inele și cercei. Comandă pe Telegram, răspundem rapid.",cta:"Scrie pe Telegram",order:"Comandă",ph:"Aici va fi fotografia",zoom:"Apasă pentru a deschide fotografia",hint:"Atinge de două ori sau ciupește pentru zoom",c:"Cum comanzi",cp:"Scrie-ne pe Telegram: alege bijuteria, stabilim detaliile și livrarea sau întâlnirea.",msg:"Bună ziua! Vreau să comand: ",all:"Toate",sd:"Implicit",sa:"Mai ieftin întâi",sh:"Mai scump întâi",n:"Produse: ",in:"În stoc",out:"Indisponibil",nw:"Nou",ask:"Întreabă",mo:"Bună ziua! Aș vrea să aflu când va fi din nou în stoc: ",mat:"Material: ",tl:"Temă luminoasă",td:"Temă întunecată",sl:"Sortare"}
+};
+var lang="ru";
+try{var s=localStorage.getItem("lang");if(s==="ro"||s==="ru")lang=s;}catch(e){}
+function tg(text){return "https://t.me/"+TELEGRAM+(text?"?text="+encodeURIComponent(text):"");}
+function esc(x){return String(x).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+var cat="all",sort="def",VISIBLE=[];
+function vis(){var a=[];PRODUCTS.forEach(function(p,i){if(cat==="all"||p.cat===cat)a.push(i);});
+ if(sort==="asc")a.sort(function(x,y){return PRODUCTS[x].price-PRODUCTS[y].price||x-y;});
+ else if(sort==="desc")a.sort(function(x,y){return PRODUCTS[y].price-PRODUCTS[x].price||x-y;});
+ return a;}
+function card(i,pos){
+ var p=PRODUCTS[i],t=T[lang],out=p.st==="out",n=p[lang],m=p["m"+lang];
+ var b=out?'<span class="badge out">'+t.out+'</span>':(p.st==="new"?'<span class="badge">'+t.nw+'</span>':'');
+ var pic=p.img?'<img src="'+esc(p.img)+'" alt="'+esc(n)+'" decoding="async" loading="'+(pos<4?"eager":"lazy")+'">':esc(t.ph);
+ var open=p.img?'<a class="pic has" href="'+esc(p.img)+'" data-i="'+i+'" aria-label="'+esc(t.zoom+": "+n)+'">':'<div class="pic">';
+ return '<article class="card'+(out?' out':'')+'">'+open+pic+b+(p.img?'</a>':'</div>')+'<div class="info"><div class="name">'+esc(n)+'</div><div class="desc">'+esc(p["d"+lang])+'</div>'+(m?'<div class="mat">'+t.mat+esc(m)+'</div>':'')+'<div class="stock">'+(out?t.out:t.in)+'</div><div class="row"><span class="price">'+p.price+' '+PRICE_SUFFIX[lang]+'</span><a class="btn ghost" target="_blank" rel="noopener" href="'+tg((out?t.mo:t.msg)+n)+'">'+(out?t.ask:t.order)+'</a></div></div></article>';
+}
+function drawGrid(){
+ VISIBLE=vis();
+ document.getElementById("grid").innerHTML=VISIBLE.map(function(i,k){return card(i,k);}).join("");
+ document.getElementById("cnt").textContent=T[lang].n+VISIBLE.length;
+ document.querySelectorAll(".pic.has").forEach(function(el){el.addEventListener("click",function(e){e.preventDefault();if(window.openPhoto)window.openPhoto(+el.dataset.i);});});
+}
+function drawChips(){
+ var t=T[lang],h='<button type="button" class="chip" data-c="all" aria-pressed="'+(cat==="all")+'">'+t.all+'</button>';
+ CATS.forEach(function(c){if(PRODUCTS.some(function(p){return p.cat===c.k;}))h+='<button type="button" class="chip" data-c="'+c.k+'" aria-pressed="'+(cat===c.k)+'">'+esc(c[lang])+'</button>';});
+ document.getElementById("chips").innerHTML=h;
+}
+function render(){
+ var t=T[lang];document.documentElement.lang=lang;
+ document.getElementById("shopName").textContent=SHOP_NAME;
+ document.getElementById("t1").textContent=t.h1;document.getElementById("t2").textContent=t.p;
+ document.getElementById("t3").textContent=t.c;document.getElementById("t4").textContent=t.cp;
+ ["cta1","cta2"].forEach(function(id){var a=document.getElementById(id);a.textContent=t.cta;a.href=tg("");});
+ var vb=document.getElementById("vb"),ig=document.getElementById("ig");
+ vb.hidden=!VIBER;if(VIBER){vb.href="viber://chat?number="+encodeURIComponent(VIBER);vb.textContent="Viber";}
+ ig.hidden=!INSTAGRAM;if(INSTAGRAM){ig.href="https://instagram.com/"+encodeURIComponent(INSTAGRAM);ig.textContent="Instagram";}
+ var d=DELIVERY[lang];document.getElementById("t5").textContent=d.title;
+ document.getElementById("i3").innerHTML=d.items.map(function(x){return '<div><h3>'+esc(x.h)+'</h3><p>'+esc(x.t)+'</p></div>';}).join("");
+ var so=document.getElementById("sort");so.setAttribute("aria-label",t.sl);
+ so.innerHTML=[["def",t.sd],["asc",t.sa],["desc",t.sh]].map(function(o){return '<option value="'+o[0]+'"'+(o[0]===sort?" selected":"")+'>'+o[1]+'</option>';}).join("");
+ drawChips();drawGrid();themeBtn();
+ document.querySelectorAll(".lang button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.l===lang?"true":"false");});
+}
+document.querySelectorAll(".lang button").forEach(function(b){b.addEventListener("click",function(){lang=b.dataset.l;try{localStorage.setItem("lang",lang);}catch(e){}render();});});
+/* ===== Просмотр фото с зумом / Vizualizare foto cu zoom ===== */
+(function(){
+ var lb=document.getElementById("lb"),stage=document.getElementById("lbStage"),img=document.getElementById("lbImg");
+ var cap=document.getElementById("lbCap"),order=document.getElementById("lbOrder"),hint=document.getElementById("lbHint");
+ var MAX=5,cur=-1,s=1,tx=0,ty=0,pts={},pinch=null,pan=null,swipe=null,lastTap=0,lastX=0,lastY=0,pushed=false,lastFocus=null,hintTimer;
+ function list(){var a=[];VISIBLE.forEach(function(i){if(PRODUCTS[i].img)a.push(i);});return a;}
+ function apply(anim){img.classList.toggle("anim",!!anim);img.style.transform="translate("+tx+"px,"+ty+"px) scale("+s+")";}
+ function clamp(){var w=img.offsetWidth*s,h=img.offsetHeight*s,mx=Math.max(0,(w-innerWidth)/2),my=Math.max(0,(h-innerHeight)/2);tx=Math.min(mx,Math.max(-mx,tx));ty=Math.min(my,Math.max(-my,ty));}
+ function reset(anim){s=1;tx=0;ty=0;apply(anim);}
+ function zoomAt(ns,px,py,anim){ns=Math.min(MAX,Math.max(1,ns));var cx=px-innerWidth/2,cy=py-innerHeight/2;tx=cx-(cx-tx)*ns/s;ty=cy-(cy-ty)*ns/s;s=ns;clamp();apply(anim);}
+ function show(i){
+  cur=i;var p=PRODUCTS[i],t=T[lang];reset(false);
+  img.src=p.img;img.alt=p[lang];
+  cap.innerHTML=esc(p[lang])+"<small>"+p.price+" "+PRICE_SUFFIX[lang]+"</small>";
+  order.textContent=t.order;order.href=tg(t.msg+p[lang]);
+  var n=list().length;document.getElementById("lbPrev").hidden=document.getElementById("lbNext").hidden=n<2;
+ }
+ function step(d){var a=list(),k=a.indexOf(cur);if(a.length<2)return;show(a[(k+d+a.length)%a.length]);}
+ function open(i){
+  lastFocus=document.activeElement;show(i);lb.hidden=false;lb.classList.add("open");document.body.style.overflow="hidden";
+  hint.textContent=T[lang].hint;hint.style.opacity=1;clearTimeout(hintTimer);hintTimer=setTimeout(function(){hint.style.opacity=0;},2500);
+  try{history.pushState({lb:1},"");pushed=true;}catch(e){pushed=false;}
+  document.getElementById("lbClose").focus();
+ }
+ function hide(){if(lb.hidden)return;lb.classList.remove("open");lb.hidden=true;document.body.style.overflow="";pts={};pinch=pan=swipe=null;pushed=false;if(lastFocus&&lastFocus.focus)lastFocus.focus();}
+ function close(){if(pushed&&history.state&&history.state.lb){history.back();}else hide();}
+ window.addEventListener("popstate",hide);
+ window.openPhoto=open;
+ document.getElementById("lbClose").onclick=close;
+ document.getElementById("lbPrev").onclick=function(){step(-1);};
+ document.getElementById("lbNext").onclick=function(){step(1);};
+ document.addEventListener("keydown",function(e){if(lb.hidden)return;if(e.key==="Escape")close();else if(e.key==="ArrowLeft")step(-1);else if(e.key==="ArrowRight")step(1);else if(e.key==="+"||e.key==="=")zoomAt(s*1.5,innerWidth/2,innerHeight/2,true);else if(e.key==="-")zoomAt(s/1.5,innerWidth/2,innerHeight/2,true);});
+ stage.addEventListener("wheel",function(e){e.preventDefault();zoomAt(s*Math.exp(-e.deltaY*0.0025),e.clientX,e.clientY,false);},{passive:false});
+ function two(){var k=Object.keys(pts),a=pts[k[0]],b=pts[k[1]];return {d:Math.hypot(a.x-b.x,a.y-b.y)||1,x:(a.x+b.x)/2,y:(a.y+b.y)/2};}
+ stage.addEventListener("pointerdown",function(e){
+  pts[e.pointerId]={x:e.clientX,y:e.clientY};try{stage.setPointerCapture(e.pointerId);}catch(_){}
+  var n=Object.keys(pts).length;
+  if(n===2){var g=two();pinch={d:g.d,x:g.x,y:g.y,s:s,tx:tx,ty:ty};pan=null;swipe=null;}
+  else if(n===1){pan={x:e.clientX,y:e.clientY};swipe={x:e.clientX,y:e.clientY,t:Date.now(),moved:false,onImg:hitImg(e.clientX,e.clientY)};}
+  img.classList.remove("anim");
+ });
+ function hitImg(x,y){var r=img.getBoundingClientRect();return x>=r.left&&x<=r.right&&y>=r.top&&y<=r.bottom;}
+ stage.addEventListener("pointermove",function(e){
+  if(!pts[e.pointerId])return;pts[e.pointerId]={x:e.clientX,y:e.clientY};
+  if(pinch&&Object.keys(pts).length>=2){
+   var g=two(),ns=Math.min(MAX,Math.max(1,pinch.s*g.d/pinch.d)),cx=pinch.x-innerWidth/2,cy=pinch.y-innerHeight/2;
+   tx=cx-(cx-pinch.tx)*ns/pinch.s+(g.x-pinch.x);ty=cy-(cy-pinch.ty)*ns/pinch.s+(g.y-pinch.y);s=ns;clamp();apply(false);return;
+  }
+  if(!pan)return;
+  var dx=e.clientX-pan.x,dy=e.clientY-pan.y;pan.x=e.clientX;pan.y=e.clientY;
+  if(swipe&&Math.hypot(e.clientX-swipe.x,e.clientY-swipe.y)>8)swipe.moved=true;
+  if(s>1.01){tx+=dx;ty+=dy;clamp();apply(false);}
+  else if(swipe){var sx=e.clientX-swipe.x,sy=e.clientY-swipe.y;if(Math.abs(sx)>Math.abs(sy)){tx=sx;ty=0;}else{tx=0;ty=Math.max(0,sy);}apply(false);}
+ });
+ function end(e){
+  if(!pts[e.pointerId])return;delete pts[e.pointerId];
+  var left=Object.keys(pts);
+  if(pinch){if(left.length<2){pinch=null;if(left.length===1){var p=pts[left[0]];pan={x:p.x,y:p.y};}swipe=null;if(s<1.05)reset(true);}return;}
+  if(left.length)return;
+  var sw=swipe;pan=null;swipe=null;
+  if(!sw)return;
+  if(!sw.moved&&Date.now()-sw.t<350){
+   var now=Date.now();
+   if(now-lastTap<320&&Math.hypot(e.clientX-lastX,e.clientY-lastY)<40){lastTap=0;if(s>1.01)reset(true);else zoomAt(2.5,e.clientX,e.clientY,true);return;}
+   lastTap=now;lastX=e.clientX;lastY=e.clientY;
+   if(!sw.onImg&&s<=1.01){setTimeout(function(){if(lastTap===now)close();},330);}
+   return;
+  }
+  if(s<=1.01){
+   var dx=e.clientX-sw.x,dy=e.clientY-sw.y;
+   if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)){step(dx<0?1:-1);return;}
+   if(dy>110&&Math.abs(dy)>Math.abs(dx)){reset(false);close();return;}
+   reset(true);
+  }
+ }
+ stage.addEventListener("pointerup",end);stage.addEventListener("pointercancel",end);
+ document.addEventListener("gesturestart",function(e){if(!lb.hidden)e.preventDefault();});
+ window.addEventListener("resize",function(){if(!lb.hidden){clamp();apply(false);}});
+})();
+/* ===== Тема, фильтр, сортировка ===== */
+var SUN='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
+var MOON='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
+function effTheme(){var d=document.documentElement.getAttribute("data-theme");if(d)return d;return window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}
+function themeBtn(){var b=document.getElementById("themeBtn"),dk=effTheme()==="dark";b.innerHTML=dk?SUN:MOON;b.setAttribute("aria-label",dk?T[lang].tl:T[lang].td);}
+document.getElementById("themeBtn").addEventListener("click",function(){var n=effTheme()==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",n);try{localStorage.setItem("theme",n);}catch(e){}themeBtn();});
+try{matchMedia("(prefers-color-scheme: dark)").addEventListener("change",themeBtn);}catch(e){}
+document.getElementById("chips").addEventListener("click",function(e){var b=e.target.closest(".chip");if(!b)return;cat=b.dataset.c;document.querySelectorAll(".chip").forEach(function(c){c.setAttribute("aria-pressed",c===b?"true":"false");});drawGrid();});
+document.getElementById("sort").addEventListener("change",function(){sort=this.value;drawGrid();});
+render();
+</script>
+</body>
+</html>
